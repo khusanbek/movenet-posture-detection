@@ -1,3 +1,5 @@
+# Thanks to repo: https://github.com/GPoleto27/Movenet_Webcam_App
+
 # Import TF and TF Hub libraries.
 import tensorflow as tf
 import tensorflow_hub as hub
