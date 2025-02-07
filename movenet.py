@@ -1,5 +1,3 @@
-# Thanks to repo: https://github.com/GPoleto27/Movenet_Webcam_App
-
 # Import TF and TF Hub libraries.
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -15,7 +13,7 @@ movenet = model.signatures['serving_default']
 threshold = .3
 
 # Loads video source (0 is for main webcam)
-video_source = 2
+video_source = 0
 cap = cv2.VideoCapture(video_source)
 
 # Checks errors while opening the Video Capture
